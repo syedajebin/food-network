@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bebas Neue', cursive;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    background: orange;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center
+}
+
+ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.nav {
+    text-decoration: none;
+    color: white;
+}
+/* navbar ends here */
+#banner {
+    background-image: url(images/im2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    text-align: center;
+    
+}
+.ex{
+    color: red;
+}
+.top-text{
+    font-size: 50px;
+}
+.order{
+    text-decoration: none;
+    
+        color: white;
+        font-weight: 700;
+        font-size: 25px;
+        display: inline-block;
+        background-color: orange;
+        padding: 8px 10px;
+        border-radius: 7px;
+
+}
