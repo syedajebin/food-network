@@ -14,18 +14,26 @@ body{
 ul {
     margin: 0;
     padding: 0;
-    text-align: center
+    text-align: center;
+  
 }
 
 ul li {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 
 .nav {
     text-decoration: none;
     color: white;
+    
 }
+.logo{
+    float: left;
+    padding-left: 5px;
+    color: green;
+}
+
 /* navbar ends here */
 #banner {
     background-image: url(images/im2.jpg);
@@ -54,3 +62,36 @@ ul li {
         border-radius: 7px;
 
 }
+/* about-us section  */
+
+#about-us{
+    display: flex;
+    width: 95%;
+    
+}
+#about-text{
+    font-size: 20px;
+    width: 80%;
+    padding-top: 10px;
+    padding-left: 15px;
+    text-align: justify ; 
+
+}
+
+
+.order2{
+    color: white;
+        font-weight: 700px;
+        font-size: 25px;
+        display: inline-block;
+        background-color: orange;
+        padding: 5px 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        
+       
+}
+.order-link{
+    padding-left: 15px;
+}
+/* about us ends */
