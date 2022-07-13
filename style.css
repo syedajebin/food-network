@@ -168,3 +168,32 @@ ul li {
 }
 
 /* food section end */
+.review{
+    display: flex;
+    padding: 80px 5% 80px 5%;
+    background-color: white;
+
+}
+.review-part{
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+    transition: .5s;
+    width: 25%;
+        border-radius: 5px;
+        padding: 5px 5px 20px 5px;
+        margin: 0 5px 15px 5px;
+        position: relative;
+        transition: .5s;
+        /* background:#fed8b1; */
+        background-color:#a6f1a6;
+    
+}
+
+.review-sec h1{
+    text-align: center;
+}
+.review-sec p{
+    text-align: center;
+}
+/* review part end */
