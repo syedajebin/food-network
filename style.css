@@ -95,3 +95,74 @@ ul li {
     padding-left: 15px;
 }
 /* about us ends */
+ .food-sec{
+    padding: 80px 5% 80px 5%;
+        background: url(images/bg2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+       z-index: 4;
+        /* background-color: #f3fff9; */
+ }
+ .food-items{
+    display: flex;
+ }
+ .food-top-text{
+    font-size: 40px;
+        color: #575757;
+        text-align: center;
+        margin-bottom: 20px;
+ }
+ .food-top-para{
+    font-size: 18px;
+        text-align: center;
+        color: #575757;
+        padding: 0 250px 0 250px;
+        line-height: 25px;
+        margin-bottom: 40px;
+ }
+.food-card {
+    width: 25%;
+    border-radius: 5px;
+    padding: 5px 5px 20px 5px;
+    margin: 0 5px 15px 5px;
+    position: relative;
+    transition: .5s;
+    background: white;
+}
+.food-card h3 {
+    color: #575757;
+    margin: 0 0 10px 0;
+}
+.card-text {
+    color: #575757;
+}
+
+.food-card img {
+    width: 100%;
+}
+.food items{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px 0 5px;
+        
+}
+.card-text{
+    font-size: 18px;
+        font-weight: 700;
+        color: #575757;
+}
+.btn3{
+    
+        text-decoration: none;
+        color: white;
+            font-weight: 500px;
+            font-size: 15px;
+            display: inline-block;
+            background-color: orange;
+            padding: 5px 5px;
+            border-radius: 5px;
+
+}
+/* food section end */
