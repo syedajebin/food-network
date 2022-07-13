@@ -152,6 +152,7 @@ ul li {
     font-size: 18px;
         font-weight: 700;
         color: #575757;
+        text-align: justify;
 }
 .btn3{
     
@@ -165,4 +166,5 @@ ul li {
             border-radius: 5px;
 
 }
+
 /* food section end */
