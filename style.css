@@ -187,6 +187,7 @@ ul li {
         transition: .5s;
         /* background:#fed8b1; */
         background-color:#a6f1a6;
+      
     
 }
 
@@ -197,3 +198,80 @@ ul li {
     text-align: center;
 }
 /* review part end */
+/* update  section */
+#update {
+    margin-bottom: 0px;
+    background-color: whitesmoke;
+}
+
+.update-top-text {
+    width: 600px;
+
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.update-top-text h1 {
+    margin-bottom: 16px;
+}
+
+.update-top-text p {
+    margin-bottom: 10px;
+}
+
+.update-bottom-field {
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 15px;
+    background-color: #fff4d6;
+}
+
+.update-bottom-field .subscribe {
+    color: white;
+    font-weight: bold;
+}
+
+.update-bottom-field a {
+    background-color: #f96c43;
+    margin-left: -10px;
+}
+
+#update {
+    padding: 20px 0px;
+}
+
+.update-field-btn {
+    padding: 8px 20px;
+    display: inline-block;
+    border: none;
+    background-color: #cccece;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+/* footer */
+footer {
+    background-color: #000000;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    margin-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    font-family: "Lobster", cursive;
+    margin: 15px 0px 10px;
+    color: #f96c43;
+}
+
+footer small {
+    padding: 3px;
+    color: white;
+    margin: 2px 0px 20px 0px;
+}
