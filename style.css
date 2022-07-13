@@ -101,7 +101,7 @@ ul li {
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
-       z-index: 4;
+       z-index: 1;
         /* background-color: #f3fff9; */
  }
  .food-items{
